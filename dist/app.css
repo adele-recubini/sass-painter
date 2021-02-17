@@ -84,9 +84,20 @@
   height: 400px;
   background-color: black;
   margin-top: 50px;
+  position: relative;
 }
-.jumbotron .third-black > span {
+.jumbotron .third-black-costs {
+  width: 100px;
+  height: 100px;
   color: white;
   font-size: 25px;
   padding: 25px 25px;
+  display: inline-block;
+}
+.jumbotron .third-black-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/icon.png");
+  display: inline-block;
+  float: right;
 }

@@ -13,6 +13,10 @@
   height: 500px;
 }
 
+@mixin position{
+  display: inline-block;
+}
+
 
 
 *{
@@ -102,12 +106,26 @@
       height: 400px;
       background-color:$bg-color;
       margin-top: 50px;
+      position: relative;
 
-      &>span{
+      &-costs {
+        width: 100px;
+        height: 100px;
         color:$word-color;
         font-size: 25px;
         padding:25px 25px;
+        @include position;
       }
+
+      &-icon{
+        width: 90px;
+        height: 90px;
+        background-image: url($img-icon);
+        @include position;
+        float: right;
+      }
+
+
 
 
 
