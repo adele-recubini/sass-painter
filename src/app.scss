@@ -11,7 +11,6 @@
   float: left;
   width: 33%;
   height: 500px;
-  border: 1px solid black;
 }
 
 
@@ -52,7 +51,9 @@
 
 .jumbotron{
   height: 500px;
-  border: 1px solid black;
+  background-image: url($img-bg);
+  background-size:cover;
+
 
   &:after{
     @include clearfix;
@@ -60,15 +61,26 @@
 
   .first{
     @include squares;
-
-    &>img{
-      height: 100%;
-    }
   }
   .second{
     @include squares;
+    text-align: center;
+    padding: 10px;
+
+    .second>span{
+      color:$word-colors;
+      padding: 10px 10px,
+    }
+
   }
   .third{
     @include squares;
+
+    &-black{
+      width: 500px;
+      height: 400px;
+      background-color:$bg-color;
+      margin-top: 50px;
+    }
   }
 }

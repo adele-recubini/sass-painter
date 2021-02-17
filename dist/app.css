@@ -29,7 +29,8 @@
 
 .jumbotron {
   height: 500px;
-  border: 1px solid black;
+  background-image: url("../img/girl.jpg");
+  background-size: cover;
 }
 .jumbotron:after {
   content: "";
@@ -41,22 +42,28 @@
   float: left;
   width: 33%;
   height: 500px;
-  border: 1px solid black;
-}
-.jumbotron .first > img {
-  height: 100%;
 }
 .jumbotron .second {
   float: left;
   float: left;
   width: 33%;
   height: 500px;
-  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.jumbotron .second .second > span {
+  color: lightgrey;
+  padding: 10px 10px;
 }
 .jumbotron .third {
   float: left;
   float: left;
   width: 33%;
   height: 500px;
-  border: 1px solid black;
+}
+.jumbotron .third-black {
+  width: 500px;
+  height: 400px;
+  background-color: black;
+  margin-top: 50px;
 }
