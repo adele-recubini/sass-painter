@@ -102,6 +102,16 @@
       height: 400px;
       background-color:$bg-color;
       margin-top: 50px;
+
+      &>span{
+        color:$word-color;
+        font-size: 25px;
+        padding:25px 25px;
+      }
+
+
+
+
     }
   }
 }

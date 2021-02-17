@@ -85,3 +85,8 @@
   background-color: black;
   margin-top: 50px;
 }
+.jumbotron .third-black > span {
+  color: white;
+  font-size: 25px;
+  padding: 25px 25px;
+}
