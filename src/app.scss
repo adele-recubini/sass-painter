@@ -72,6 +72,12 @@
       color:$word-colors;
       padding: 10px 0;
     }
+
+    &>h2>span{
+      color:pink;
+      font-style:oblique;
+      font-size: 30px;
+    }
     &>ul{
       color:$word-colors;
       list-style-type: none;

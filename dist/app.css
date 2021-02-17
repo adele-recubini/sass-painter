@@ -55,6 +55,11 @@
   color: grey;
   padding: 10px 0;
 }
+.jumbotron .second > h2 > span {
+  color: pink;
+  font-style: oblique;
+  font-size: 30px;
+}
 .jumbotron .second > ul {
   color: grey;
   list-style-type: none;
