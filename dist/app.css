@@ -52,15 +52,20 @@
   padding-top: 70px;
 }
 .jumbotron .second > h2 {
-  color: lightgrey;
-  padding: 10px 10px;
+  color: grey;
+  padding: 10px 0;
 }
-.jumbotron .second > span {
-  color: lightgrey;
-  padding: 10px 10px;
+.jumbotron .second > ul {
+  color: grey;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 5px 0;
+}
+.jumbotron .second > ul > li {
+  padding: 5px 0;
 }
 .jumbotron .second > h3 {
-  color: lightgrey;
+  color: grey;
   padding: 10px 10px;
 }
 .jumbotron .third {
