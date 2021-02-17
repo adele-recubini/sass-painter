@@ -49,9 +49,17 @@
   width: 33%;
   height: 500px;
   text-align: center;
-  padding: 10px;
+  padding-top: 70px;
 }
-.jumbotron .second .second > span {
+.jumbotron .second > h2 {
+  color: lightgrey;
+  padding: 10px 10px;
+}
+.jumbotron .second > span {
+  color: lightgrey;
+  padding: 10px 10px;
+}
+.jumbotron .second > h3 {
   color: lightgrey;
   padding: 10px 10px;
 }
