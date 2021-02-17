@@ -18,7 +18,7 @@
   }
 
   &-link>li{
-    padding: 0 10px;
+    padding: 0 20px;
     text-decoration: none;
     display: inline-block;
     color:$word-color;
@@ -26,9 +26,12 @@
   }
   &-link>li>a{
     color:$word-color;
-    text-decoration: none;
+    text-decoratio
+    &-link>li>h2{
+      color:$word-color;
 
-  }
+    }
+
 
 
 
