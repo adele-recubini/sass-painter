@@ -9,15 +9,12 @@
   background-color: black;
   margin: 0 auto;
 }
-.header-link > h4 {
-  color: white;
-}
 .header-link {
   text-align: center;
   line-height: 70px;
 }
 .header-link > li {
-  padding: 0 10px;
+  padding: 0 30px;
   text-decoration: none;
   display: inline-block;
   color: white;
@@ -25,4 +22,7 @@
 .header-link > li > a {
   color: white;
   text-decoration: none;
+}
+.header-link > li > h2 {
+  color: white;
 }
