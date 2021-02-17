@@ -1,0 +1,37 @@
+@import "colors";
+
+
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.header{
+  height: 70px;
+  background-color: $bg-color;
+  margin:0 auto;
+
+  &-link{
+    text-align: center;
+    line-height: 70px;
+  }
+
+  &-link>li{
+    padding: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    color:$word-color;
+
+  }
+  &-link>li>a{
+    color:$word-color;
+    text-decoration: none;
+
+  }
+
+
+
+
+
+}
