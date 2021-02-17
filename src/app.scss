@@ -117,12 +117,21 @@
         @include position;
       }
 
+      &-button>button{
+        width: 200px;
+        height: 30px;
+        background-color:$button-color;
+      }
+
+
       &-icon{
         width: 90px;
         height: 90px;
         background-image: url($img-icon);
         @include position;
         float: right;
+
+
       }
 
 

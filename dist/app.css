@@ -94,6 +94,11 @@
   padding: 25px 25px;
   display: inline-block;
 }
+.jumbotron .third-black-button > button {
+  width: 200px;
+  height: 30px;
+  background-color: lightblue;
+}
 .jumbotron .third-black-icon {
   width: 90px;
   height: 90px;
