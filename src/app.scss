@@ -1,4 +1,18 @@
 @import "colors";
+@import "variables";
+
+@mixin clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+@mixin squares{
+  float:left;
+  float: left;
+  width: 33%;
+  height: 500px;
+  border: 1px solid black;
+}
 
 
 
@@ -34,9 +48,27 @@
 
     }
 
+}
 
+.jumbotron{
+  height: 500px;
+  border: 1px solid black;
 
+  &:after{
+    @include clearfix;
+  }
 
+  .first{
+    @include squares;
 
-
+    &>img{
+      height: 100%;
+    }
+  }
+  .second{
+    @include squares;
+  }
+  .third{
+    @include squares;
+  }
 }

@@ -26,3 +26,37 @@
 .header-link > li > h2 {
   color: white;
 }
+
+.jumbotron {
+  height: 500px;
+  border: 1px solid black;
+}
+.jumbotron:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.jumbotron .first {
+  float: left;
+  float: left;
+  width: 33%;
+  height: 500px;
+  border: 1px solid black;
+}
+.jumbotron .first > img {
+  height: 100%;
+}
+.jumbotron .second {
+  float: left;
+  float: left;
+  width: 33%;
+  height: 500px;
+  border: 1px solid black;
+}
+.jumbotron .third {
+  float: left;
+  float: left;
+  width: 33%;
+  height: 500px;
+  border: 1px solid black;
+}
